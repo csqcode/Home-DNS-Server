@@ -9,6 +9,7 @@ Change settings on eero router to ensure it doesn't intercept DNS queries.
 1. Disable all Security+ features
 2. Disable local caching
 3. Set Custom DNS to Technitium IP
+4. Set Backup DNS to Cloudflare (1.1.1.2)
 
 ## Verification
 - dnsleaktest.com
