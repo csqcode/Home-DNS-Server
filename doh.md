@@ -6,10 +6,11 @@ Add new security features to Technitium and TailScale to ensure client privacy
 - TailScale installed and running
 
 ## Steps
-1. In Technitium's "Proxy and Forwarders" tab, change "Forwarder Protocol" to DNS over HTTPS
-2. Copy and paste forwarder IPs into the "Forwarders" box
-3. Enable DNS over HTTPS in browser settings
-4. Set custom DNS to the Tailscale IP of Technitium
+1. In Technitium's "Optional Protocols" tab, enable DNS over HTTPS
+2. In the "Proxy and Forwarders" tab, change "Forwarder Protocol" to DNS over HTTPS
+3. Copy and paste forwarder IPs into the "Forwarders" box
+4. Enable DNS over HTTPS in browser settings
+5. Set custom DNS to the Tailscale IP of Technitium
 
    | Name | URL | Category |
    |------|-----|----------|
