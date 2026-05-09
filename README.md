@@ -20,7 +20,10 @@ With Technitium, my Ubuntu server acts as a fully fledged DNS resolver. All DNS 
    | Eero Integration | Custom DNS set, caching disabled |
    | DNSSEC | Active |
    | TailScale | VPN node active |
-   | Technitium Backup Instance | Construction in progress |
-   | Auto-transfer | Not configured |
+   | Technitium Backup Instance | Secondary DNS server running |
+   | Auto-transfer | Configured |
    | Splunk/SIEM | Not started |
-   
+
+ ## Notes
+ - This guide specifically revolves around trying to integrate Technitium with my Eero router. Eero is a very aggressive router that will automatically redirect DNS unless specific measures are taken. Anyone without an Eero can ignore the steps and have a much easier time setting up Technitium.
+ - backup.md does not detail the process of zone transfer with custom zones. 
