@@ -3,7 +3,7 @@ How I self-host my own DNS and add privacy services. Hosted via Technitium on a 
 
 ## Hardware
 - Main Desktop – i3, 4gb ram, 1tb hdd
-- Extra Desktop – Celeron, 4gb ram
+- Extra Desktop – Celeron, 4gb ram, 1tb hdd
 - Network Switch
 
 ## How it Works
