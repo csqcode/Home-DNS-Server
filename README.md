@@ -22,7 +22,7 @@ With Technitium, my Ubuntu server acts as a fully fledged DNS resolver. All DNS 
    | TailScale | VPN node active |
    | Technitium Backup Instance | Secondary DNS server running |
    | Auto-transfer | Configured |
-   | Splunk/SIEM | Not started |
+   | Splunk | Installed and Configured |
 
  ## Notes
  - This guide specifically revolves around trying to integrate Technitium with my Eero router. Eero is a very aggressive router that will automatically redirect DNS unless specific measures are taken. Anyone without an Eero can ignore the steps and have a much easier time setting up Technitium.
