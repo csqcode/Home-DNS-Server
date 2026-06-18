@@ -34,7 +34,7 @@ Add Splunk to index DNS logs. Allows for a more comprehensive log analysis compa
    - Solution: Review Setup. Ensure that everything is properly installed. Make sure the ports were created, configs set up properly, and that Technitium points to the correct machine.
 
 ## My Setup
-I run Splunk on a Proxmox VM and forward my Technitium logs there. I then took this data and selected specific elements to visualize on a dashboard. My categories are: Overview, Security & Threats, Clients & Traffic. It ingests data from a 24-hour period.
+I run Splunk on a Proxmox VM and forward my Technitium logs there. I then take this data and select specific elements to visualize on a dashboard. My categories are: Overview, Security & Threats, Clients & Traffic. It ingests data from a 24-hour period.
 
    | Name | Role | Data |
    |------|-----|----------|
