@@ -7,7 +7,7 @@ How I self-host my own DNS and add privacy services. Hosted via Technitium on a 
 - Network Switch
 
 ## How it Works
-With Technitium, my Ubuntu server acts as a fully fledged DNS resolver. All DNS queries on my WiFi are processed through Techntium. Any ads, malware, or other unfavorable sites are blocked. Queries are then sent to Cloudflare for DNS over HTTPS encryption. Throughout all of this, TailScale increases privacy via end-to-end encryption and peer-to-peer connections.
+With Technitium, my Ubuntu server acts as a fully fledged DNS resolver. All DNS queries on my WiFi are processed through Techntium. Any ads, malware, or other unfavorable sites are blocked. Any queries that cannot be resolved through the Technitium Cache are sent to Cloudflare via DNS over HTTPS. Throughout all of this, TailScale increases privacy via end-to-end encryption and peer-to-peer connections.
 
 ## Status
 
